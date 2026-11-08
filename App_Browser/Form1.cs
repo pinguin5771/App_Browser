@@ -1,3 +1,4 @@
+using BrowserLinkManager;
 using Microsoft.VisualBasic.Devices;
 using System.Drawing.Printing;
 using static System.Net.WebRequestMethods;
@@ -158,3 +159,36 @@ namespace App_Browser
 //NewWindowRequested
 
 //and forbid to create the new Window
+//private LinkManager linkManager = new(
+//    Path.Combine(
+//        Application.StartupPath,
+//        "links.json"));
+
+//linkManager.Add("https://google.com");
+
+//linkManager.Add("https://example.com", LinkStatus.Blocked);
+
+//linkManager.AllowTemporarily("https://example.com",
+//    TimeSpan.FromMinutes(10));
+
+//linkManager.SetFavorite( "https://google.com", true);
+
+//List<LinkInfo> links = linkManager.GetAll();
+
+//linkManager.Remove("https://example.com");
+
+//linkManager.Clear();
+
+//webView2Control.CoreWebView2.NavigationStarting += (sender, e) =>
+//{
+//    if (!linkManager.IsAllowed(e.Uri))
+//    {
+//        e.Cancel = true;
+
+//        MessageBox.Show(
+//            "This website is blocked!",
+//            "Access denied",
+//            MessageBoxButtons.OK,
+//            MessageBoxIcon.Warning);
+//    }
+//};

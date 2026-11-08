@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="App_Browser/App_Browser.csproj" />
+  <Project Path="BrowserLinkManager/BrowserLinkManager.csproj" Id="0f67e942-3587-4951-b847-fb2424c82dfa" />
 </Solution>
